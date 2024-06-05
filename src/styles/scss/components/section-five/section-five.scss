@@ -1,0 +1,82 @@
+.half-banner {
+  width: map-get($content-widths, 'lg');
+  height: 343px;
+  background: linear-gradient(90deg, #6888FF 50%, #E9EFFF 50%);
+}
+
+.left-half-banner {
+  width: 260px;
+  height: 210px;
+  position: relative;
+  left: 370px;
+
+}
+
+.left-img {
+  position: relative;
+  top: 30px;
+  left: 190px;
+  width: 65px;
+  height: 66px;
+  color: map-get($colors, "main-bg");
+  text-align: right;
+}
+
+.banner-tittle-left {
+  position: relative;
+  top: 30px;
+  left: 166px;
+  width: 96px;
+  height: 84px;
+  font-size: map-get($font-sizes, "xxxl");
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: map-get($colors, "main-bg");
+}
+
+.banner__description-left {
+  position: relative;
+  top: 80px;
+  font-size: map-get($font-sizes, "lg");
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: right;
+  color: map-get($colors, "main-bg");
+}
+
+.right-img {
+  position: relative;
+  bottom: 184px;
+  left: 814px;
+  width: 71px;
+  height: 62px;
+}
+
+.banner-tittle-right {
+  position: relative;
+  bottom: 176px;
+  left: 810px;
+  width: 99px;
+  height: 84px;
+  font-size: map-get($font-sizes, "xxxl");
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: map-get($colors, "bold-color");
+}
+
+.banner__description-right {
+  position: relative;
+  bottom: 124px;
+  left: 810px;
+  font-size: map-get($font-sizes, "lg");
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: map-get($colors, "bold-color");
+}

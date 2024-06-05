@@ -1,0 +1,15 @@
+.banner-img {
+  position: relative;
+  bottom: 140px;
+}
+
+
+.banner__content {
+  width: map-get($content-widths, 'lg');
+  height: 533px;
+  padding: 91px 0;
+  background-color: map-get($colors, "second-banner");
+  background-repeat: no-repeat;
+  background-size: 60% auto;
+  background-position: right;
+}

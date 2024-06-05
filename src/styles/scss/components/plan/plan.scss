@@ -1,0 +1,66 @@
+.plan__content {
+  width: map-get($content-widths, 'lg');
+  height: 447px;
+  background-color: map-get($colors, "main-banner");
+}
+
+.clouds {
+  position: relative;
+  top: 30px;
+}
+
+.text-white {
+  color: map-get($colors, "main-bg");
+  position: relative;
+  bottom: 320px;
+}
+
+.plan__text {
+  position: relative;
+  bottom: 320px;
+  font-size: map-get($font-sizes, "xxxl");
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  color: map-get($colors, "main-bg");
+  padding-bottom: 92px;
+}
+
+.bold_1 {
+  font-size: map-get($font-sizes, "xxxl");
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  color: map-get($colors, "main-bg");
+}
+
+.definition {
+  position: relative;
+  bottom: 380px;
+  font-size: map-get($font-sizes, "md");
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: map-get($colors, "main-bg");
+}
+
+.plan__controls {
+  position: relative;
+  bottom: 310px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 172px;
+}
+
+.controls__btn-white {
+  background-color: map-get($colors, "main-bg");
+  color: #565F82;
+}
+
+.controls__transparent {
+  background-color: transparent;
+  border: 1px solid map-get($colors, "main-bg");
+  color: map-get($colors, "main-bg");
+}

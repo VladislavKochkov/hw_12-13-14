@@ -1,0 +1,41 @@
+.app__content {
+  width: map-get($content-widths, 'lg');
+  height: 776px;
+  background-color: map-get($colors, "second-banner");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  padding-left: 222px;
+}
+
+.app_controls {
+  padding-top: 47px;
+}
+
+.app-controls__btn {
+  background: map-get($colors, "bg-color-btn");
+  color: map-get($colors, "main-bg");
+}
+
+.app-transparent-controls__btn {
+  background: transparent;
+  border: 1px solid map-get($colors,"transparent-controls__btn");
+  color: map-get($colors,"transparent-controls__btn");
+  position: relative;
+  right: 4px;
+}
+
+.thin {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: left;
+
+}
+
+.illustration {
+  width: 75%;
+  position: relative;
+  bottom: 465px;
+  left: 300px;
+}

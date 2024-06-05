@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url($base-fonts-path + 'Quicksand-Light.eot');
+  src: url($base-fonts-path + 'Quicksand-Light.eot?#iefix') format('embedded-opentype'),
+  url($base-fonts-path + 'Quicksand-Light.woff2') format('woff2'),
+  url($base-fonts-path + 'Quicksand-Light.woff') format('woff'),
+  url($base-fonts-path + 'Quicksand-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url($base-fonts-path + 'Quicksand-Bold.eot');
+  src: url($base-fonts-path + 'Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+  url($base-fonts-path + 'Quicksand-Bold.woff2') format('woff2'),
+  url($base-fonts-path + 'Quicksand-Bold.woff') format('woff'),
+  url($base-fonts-path + 'Quicksand-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url($base-fonts-path + 'Quicksand-Medium.eot');
+  src: url($base-fonts-path + 'Quicksand-Medium.eot?#iefix') format('embedded-opentype'),
+  url($base-fonts-path + 'Quicksand-Medium.woff2') format('woff2'),
+  url($base-fonts-path + 'Quicksand-Medium.woff') format('woff'),
+  url($base-fonts-path + 'Quicksand-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url($base-fonts-path + 'Quicksand-SemiBold.eot');
+  src: url($base-fonts-path + 'Quicksand-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url($base-fonts-path + 'Quicksand-SemiBold.woff2') format('woff2'),
+  url($base-fonts-path + 'Quicksand-SemiBold.woff') format('woff'),
+  url($base-fonts-path + 'Quicksand-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url($base-fonts-path + 'Quicksand-Regular.eot');
+  src: url($base-fonts-path + 'Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+  url($base-fonts-path + 'Quicksand-Regular.woff2') format('woff2'),
+  url($base-fonts-path + 'Quicksand-Regular.woff') format('woff'),
+  url($base-fonts-path + 'Quicksand-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

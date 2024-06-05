@@ -1,0 +1,47 @@
+@use "sass:map";
+
+.btn {
+  $btn-shadow: 0 5px 7px -4px;
+
+  line-height: normal;
+  font-weight: bold;
+  padding: 13px 16px;
+  margin: 0;
+  border: 1px solid transparent;
+  font-size: map-get($font-sizes, "sm");
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+  color: map-get($colors, "main-font-color");
+  border-radius: 2px;
+
+
+  &:focus, &:hover {
+    box-shadow: $btn-shadow map-get($colors, "second-font-color");
+  }
+
+
+  &.btn-primary {
+    @include create-btn-styles(
+     map-get($colors, "font-bg"),
+     map-get($colors, "main-font-color"),
+     map-get($colors, "font-bg"),
+     $btn-shadow
+    );
+  }
+
+  &.btn-danger {
+    @include create-btn-styles(
+     map-get($colors, "btn-danger-bg-color"),
+     map-get($colors, "btn-danger-color"),
+     map-get($colors, "btn-danger-bg-color"),
+     $btn-shadow
+    );
+  }
+
+  &.btn-lg {
+    @include create-btn-sizes(11px 13px, map-get($font-sizes, 'md'));
+  }
+}
+

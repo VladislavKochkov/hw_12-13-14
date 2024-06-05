@@ -1,0 +1,76 @@
+.newsletter__content {
+  border-bottom: 1px solid #D8E3FE;
+}
+
+.newsletter__tittle {
+  margin-top: 118px;
+  position: relative;
+  left: 276px;
+  font-size: map-get($font-sizes, "lg");
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+}
+
+.newsletter__text {
+  position: relative;
+  left: 276px;
+  font-size: map-get($font-sizes, "md");
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+input[type="email"] {
+  width: map-get($content-widths, 'xs');
+  height: 59px;
+  position: relative;
+  bottom: 70px;
+  left: 686px;
+  background-color: map-get($colors, "third-background");
+  color: map-get($colors, "input");
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+input[type="email"]::placeholder {
+  color: map-get($colors, "input");
+  width: 88px;
+  height: 17px;
+  font-size: map-get($colors, "sm");
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}
+
+.newsletter-controls {
+  width: 184px;
+  height: 59px;
+
+}
+
+.newsletter-controls__btn {
+  width: 184px;
+  height: 59px;
+  position: relative;
+  bottom: 130px;
+  left: 979px;
+  border-radius: 5px;
+  background: map-get($colors, "bg-color-btn");
+  color: map-get($colors, "main-bg");
+  font-size: map-get($colors, "sm");
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  padding: 22px 60px 20px 60px;
+}

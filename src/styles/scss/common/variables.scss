@@ -1,0 +1,48 @@
+$main-font-family: 'Quicksand', sans-serif;
+$base-fonts-path: './../../fonts/';
+
+$font-sizes: (
+        "xxxl": 48px,
+        "xxl": 36px,
+        "xl": 24px,
+        "lg": 18px,
+        "md": 14px,
+        "sm": 12px,
+        "xs": 10px,
+);
+
+$colors: (
+        "main-bg": #fff,
+        "second-banner": #f1f4fd,
+        "main-banner": #6283fd,
+        "bold-color": #5E81FE,
+        "second-bold-color": #495274,
+        "text-color": #697CA6,
+        "second-text-color": #AEB8D0,
+        "font-bg": #D2E1FF,
+        "main-font-color": #3A79FF,
+        "second-font-color": #A6B6DA,
+        "tittle-color": #3D4F9F,
+        "tiitle-description": #ADB3CB,
+        "text-align_left": #8D96BD,
+        "btn-danger-color": #D43F3F,
+        "btn-danger-bg-color": #FFD7D7,
+        "bg-color-btn": #4C85FF,
+        "third-background": #EFEFF7,
+        "second-bg-color-btn": #E8ECF4,
+        "color-btn": #7382A3,
+        "transparent-controls__btn": #D1D1E4,
+        "description": #8E96B7,
+        "input": #7A85AD,
+        "box-shadow": #D4DCF1,
+        "border": #D8E3FE,
+);
+
+$content-widths: (
+        'lg':1440px,
+        'md':958px,
+        'sm':423px,
+        'xs':279px,
+)
+
+

@@ -1,0 +1,61 @@
+.testimonials__content {
+  width: map-get($content-widths, 'lg');
+  height: 479px;
+  background-color: #F6F9FF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  padding-left: 222px;
+  border-top: 1px solid map-get($colors, "border");
+  border-bottom: 1px solid map-get($colors, "border");
+}
+
+.text-align_left-2 {
+  font-size: map-get($font-sizes, "sm");
+  font-weight: 323;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #a4abc8;
+}
+
+.mini_banner {
+  width: map-get($content-widths, 'sm');
+  height: 175px;
+  position: relative;
+  left: 450px;
+  bottom: 200px;
+  border: 1px;
+  background-color: map-get($colors, "main-bg");
+  box-shadow: 0 15px 50px 0 map-get($colors, "box-shadow");
+}
+
+.text-align {
+  position: relative;
+  left: 60px;
+  top: 28px;
+  font-size: map-get($font-sizes, 'md');
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.mini_banner-transparent {
+  opacity: 0.7;
+  width: 423px;
+  height: 175px;
+  position: relative;
+  left: 1008px;
+  bottom: 374px;
+  border: 1px;
+  background-color: map-get($colors, "main-bg");
+}
+
+.dots {
+  width: 168px;
+  height: 9px;
+  position: relative;
+  bottom: 316px;
+  left: 580px;
+}

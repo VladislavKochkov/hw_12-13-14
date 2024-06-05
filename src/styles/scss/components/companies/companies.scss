@@ -1,0 +1,17 @@
+.companies {
+  padding: 58px 0 58px 0;
+  position: relative;
+  left: 224px;
+}
+
+.companies__content {
+  display: flex;
+}
+
+.companies__content ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 76px;
+}

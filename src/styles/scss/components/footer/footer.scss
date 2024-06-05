@@ -1,0 +1,20 @@
+.footer__description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 93px 117px 28px 117px;
+}
+
+.footer__text {
+  width: 210px;
+  height: 30px;
+  position: relative;
+  left: 216px;
+  font-size: map-get($font-sizes, "sm");
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: map-get($colors, "second-text-color");
+  margin-bottom: 93px;
+}
